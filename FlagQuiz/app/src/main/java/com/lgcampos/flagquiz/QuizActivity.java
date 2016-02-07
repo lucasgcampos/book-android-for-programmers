@@ -14,10 +14,15 @@ import android.widget.Toast;
 
 import java.util.Set;
 
+/**
+ * The Main activity where the user play the quiz
+ *
+ * @author Lucas Gonçalves de Campos
+ */
 public class QuizActivity extends AppCompatActivity {
 
-    private static final String CHOICES = "pref_numberOfChoices";
-    private static final String REGIONS = "pref_regionsToInclude";
+    public static final String CHOICES = "pref_numberOfChoices";
+    public static final String REGIONS = "pref_regionsToInclude";
 
     private boolean phoneDevice = true;
     private boolean preferencesChanged = true;

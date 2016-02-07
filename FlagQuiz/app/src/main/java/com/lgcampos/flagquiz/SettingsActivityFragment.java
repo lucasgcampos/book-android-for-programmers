@@ -7,7 +7,9 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * A placeholder fragment containing a simple view.
+ * Fragment of {@link SettingsActivity}
+ *
+ * @author Lucas Gonçalves de Campos
  */
 public class SettingsActivityFragment extends Fragment {
 

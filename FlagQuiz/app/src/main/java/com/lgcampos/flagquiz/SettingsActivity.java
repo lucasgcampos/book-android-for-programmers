@@ -4,6 +4,11 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
+/**
+ * Activity responsible for configuration
+ *
+ * @author Lucas Gonçalves de Campos
+ */
 public class SettingsActivity extends AppCompatActivity {
 
     @Override
