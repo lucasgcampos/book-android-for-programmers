@@ -36,7 +36,7 @@ public class QuizActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         // Set default values
-        PreferenceManager.setDefaultValues(this, R.xml.preferences, false);
+        PreferenceManager.setDefaultValues(this, R.xml.preferences, true);
 
         // Register a listener
         PreferenceManager
@@ -63,9 +63,10 @@ public class QuizActivity extends AppCompatActivity {
 
         if (preferencesChanged) {
             QuizActivityFragment quizFragment = (QuizActivityFragment) getSupportFragmentManager().findFragmentById(R.id.quiz_fragment);
+            SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
 
-            quizFragment.updateGuessRows(PreferenceManager.getDefaultSharedPreferences(this));
-            quizFragment.updateRegions(PreferenceManager.getDefaultSharedPreferences(this));
+            quizFragment.updateGuessRows(sharedPreferences);
+            quizFragment.updateRegions(sharedPreferences);
             quizFragment.resetQuiz();
 
             preferencesChanged = false;

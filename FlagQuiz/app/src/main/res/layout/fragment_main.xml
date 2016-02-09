@@ -43,9 +43,11 @@
     <LinearLayout
         android:id="@+id/row_one"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing" >
 
         <Button
+            android:layout_marginRight="@dimen/half_spacing"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -53,6 +55,7 @@
             android:textColor="@color/button_text_color" />
 
         <Button
+            android:layout_marginLeft="@dimen/half_spacing"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -63,9 +66,11 @@
     <LinearLayout
         android:id="@+id/row_two"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing" >
 
         <Button
+            android:layout_marginRight="@dimen/half_spacing"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -73,6 +78,7 @@
             android:textColor="@color/button_text_color" />
 
         <Button
+            android:layout_marginLeft="@dimen/half_spacing"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -83,9 +89,11 @@
     <LinearLayout
         android:id="@+id/row_three"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing" >
 
         <Button
+            android:layout_marginRight="@dimen/half_spacing"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -93,6 +101,7 @@
             android:textColor="@color/button_text_color" />
 
         <Button
+            android:layout_marginLeft="@dimen/half_spacing"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -103,9 +112,11 @@
     <LinearLayout
         android:id="@+id/row_four"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing" >
 
         <Button
+            android:layout_marginRight="@dimen/half_spacing"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -113,6 +124,7 @@
             android:textColor="@color/button_text_color" />
 
         <Button
+            android:layout_marginLeft="@dimen/half_spacing"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
