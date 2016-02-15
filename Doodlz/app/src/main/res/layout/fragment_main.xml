@@ -1,4 +1,5 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.lgcampos.doodlz.DoodlzView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/doodlz_view"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,4 +10,4 @@
     tools:context="com.lgcampos.doodlz.MainActivityFragment"
     tools:showIn="@layout/activity_main">
 
-</RelativeLayout>
+</com.lgcampos.doodlz.DoodlzView>
